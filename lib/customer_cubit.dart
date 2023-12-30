@@ -3,7 +3,7 @@ import 'package:equatable/equatable.dart';
 
 // class model for customer
 class Customer {
-  final String name;
+  late final String name;
 
   Customer(this.name);
 
